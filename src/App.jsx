@@ -5,8 +5,21 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Quotes from "./quotes-api";
 
+/*
+  let categories = new Set();
+
+  Quotes.forEach((quote) => {
+    let topic = quote.topics[0];
+    categories.add(topic);
+   
+  }); 
+  
+  console.log(categories);
+ //let quickCheck = "listen Linda"
+*/ 
+
 function App() {
-  const [state, setState] = useState({
+  const [state, setState] = useState({ //set state
     quote: "",
     author: "",
   });
@@ -23,14 +36,16 @@ function App() {
   }
 
   // load quote on first load
-  if (state.quote == "") {
+  if (state.quote == "") { 
     return NewQuote();
   }
+
 
   // begin markup
   return (
     <div className="App">
-      <h1>Pick a quote, any quote.</h1>
+    { /* <h1>Pick a quote, any quote.</h1> */}
+      
 
       <div id="quote-box">
         <p id="text" className="text">
@@ -57,8 +72,8 @@ function App() {
         >
           <a
             id="tweet-quote"
-            target="_blank"
             href="twitter.com/intent/tweet?text={state.quote}{state.author}"
+            target="_blank"
           >
             Tweet Quote
           </a>
