@@ -5,19 +5,6 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Quotes from "./quotes-api";
 
-/*
-  let categories = new Set();
-
-  Quotes.forEach((quote) => {
-    let topic = quote.topics[0];
-    categories.add(topic);
-   
-  }); 
-  
-  console.log(categories);
- //let quickCheck = "listen Linda"
-*/ 
-
 function App() {
   const [state, setState] = useState({ //set state
     quote: "",
