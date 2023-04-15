@@ -1,14 +1,109 @@
-Set(18)
-[[Entries]]
-0
-: 
+"Achievement"
+"Advice"
+"Art"
+"Business
+"Faith"
+"Fear"
+"Friends"
+"Giving"
+"Humor"
+"Innovation"
 "Inspirational"
 "Life"
 "Love"
 "Motivational"
-16
-: 
-"Fear"
-17
-: 
-"Humor"
+"People"
+"Philosophy"
+"Religion"
+"Wisdom"
+
+
+
+
+   /*  switch(topic) {
+      case "Achievement":
+        plalist.Achievement.play();
+        break;
+      case "Advice":
+        plalist.Advice.play();
+        break;
+      case "Art":
+        plalist.Art.play();
+        break;
+      case "Business":
+        plalist.Business.play();
+        break;
+      case "Faith":
+        plalist.Faith.play();
+        break;
+      case "Friends":
+        plalist.Friends.play();
+        break;
+      case "Giving":
+        plalist.Giving.play();
+        break;
+      case "Humor":
+        plalist.Humor.play();
+        break;
+      case "Innovation":
+        plalist.Innovation.play();
+        break;
+      case "Inspirational":
+        plalist.Inspirational.play();
+        break;
+      case "Life":
+        plalist.Life.play();
+        break;
+      case "Love":
+        plalist.Love.play();
+        break;
+      case "Motivational":
+        plalist.Motivational.play();
+        break;
+      case "People":
+        plalist.People.play();
+        break;
+      case "Philosophy":
+        plalist.Philosophy.play();
+        break;
+      case "Religion":
+        plalist.Religion.play();
+        break;
+      case "Wisdom":
+        plalist.Wisdom.play();
+        break;
+    }
+*/
+ 
+// play audio
+/*
+function playAudio() {
+
+  sound = playlist.find(topic) 
+  sound.play();
+}
+*/
+
+
+
+
+playlist = [
+  {'Inspirational' : './audio/Inspirational.mp3'},
+  {'Philosophy' : './audio/Philosophy.mp3'},
+  {'Religion' : './audio/Religion.mp3'},
+  {'Wisdom' : './audio/Wisdom.mp3'},
+  {'People' : './audio/People.mp3'},
+  {'Life' : './audio/Life.mp3'},
+  {'Love' : './audio/Love.mp3'},
+  {'Friends' : './audio/Friends.mp3'},
+  {'Faith' : './audio/Faith.mp3'},
+  {'Innovation' : './audio/Innovation.mp3'},
+  {'Art' : './audio/Art.mp3'},
+  {'Achievement' : './audio/Achievement.mp3'},
+  {'Business' : './audio/Business.mp3'},
+  {'Giving' : './audio/Giving.mp3'},
+  {'Advice' : './audio/Advice.mp3'},
+  {'Motivational' : './audio/Motivational.mp3'},
+  {'Fear' : './audio/Fear.mp3'},
+  {'Humor' : './audio/Humor.mp3'}
+]

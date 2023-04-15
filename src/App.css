@@ -18,8 +18,10 @@ body {
   padding: 15px;
   color: white;
   text-shadow: 2px 2px 2px black;
+  justify-content: center;
+  align-items: center;
 }
-
+  
 .buttons:active {
   animation: logo-spin  .25s linear;
   border-color: silver;
@@ -43,7 +45,13 @@ body {
 .text {
   font-family: 'Courgette', serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 30px;
+}
+
+.subtext {
+  font-family: 'Courgette', serif;
+  font-style: italic;
+  font-size: 12px;
 }
 
 @keyframes logo-spin {

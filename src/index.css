@@ -21,12 +21,16 @@ a {
 }
 .buttons:hover {
   border: 1px ridge white;
+  opacity: 0.85;
+  outline: 4px auto -webkit-focus-ring-color;
+
 }
 .buttons {
   background-color: rgb(44, 44, 212);
   color: white;
   text-align: center;
   justify-content: center;
+  opacity: 0.70;
 }
 a:hover {
   color: white;
@@ -56,10 +60,6 @@ button {
   transition: border-color 0.25s;
 }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -67,7 +67,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: white;
   }
   button {
     background-color: #f9f9f9;
