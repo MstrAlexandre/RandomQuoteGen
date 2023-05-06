@@ -152,7 +152,7 @@ function App() {
         >
           <a
             id="tweet-quote"
-            href="twitter.com/intent/tweet?text={state.quote} + {state.author}"
+            href="http://twitter.com/intent/tweet?text={state.quote} + {state.author}"
             target="_blank"
           >
             Tweet Quote
