@@ -5,6 +5,7 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Quotes from "./quotes-api";
 
+
 function App() {
   const [state, setState] = useState({ // set state
     quote: "",
@@ -104,6 +105,11 @@ function App() {
           break;
       }
     }
+
+
+
+
+    // There has to be way to make this more of a topic.play situation
     */
   }
 
@@ -146,7 +152,7 @@ function App() {
         >
           <a
             id="tweet-quote"
-            href="twitter.com/intent/tweet?text={state.quote}{state.author}"
+            href="twitter.com/intent/tweet?text={state.quote} + {state.author}"
             target="_blank"
           >
             Tweet Quote
